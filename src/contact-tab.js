@@ -7,7 +7,7 @@ const channels = [
   "Instagram: SofTaurant_official",
   "Facebook: SofTaurant_official",
   "Tel: 555-94867-341",
-  "Email: theSofT@cityrestaurants.com",
+  "Email: theSofT@cityres.com",
 ];
 export default function appendContactTab() {
   const contactTab = document.createElement("div");
