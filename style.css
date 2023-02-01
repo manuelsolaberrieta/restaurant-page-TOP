@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background-color: black;
+}
+#title {
+  text-align: center;
+  padding: 50px;
+  font-size: 3rem;
+  background-color: white;
+}
+header {
+  border-bottom: 2px solid;
+  background-color: white;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  justify-content: center;
+}
+nav ul li {
+  padding: 20px;
+  border: 2px solid;
+  border-bottom: 0px;
+}
+nav ul li:hover {
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+  background-color: black;
+  border: 2px solid black;
+  border-bottom: 0px;
+}
+section {
+  margin: auto;
+  width: 70vw;
+}
+section > div {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+}
+div > h1 {
+  padding: 25px;
+  background-color: black;
+  color: white;
+}
+.welcome p {
+  text-align: left;
+  padding: 25px;
+  font-size: 1.5rem;
+}
+.food-container {
+  padding: 25px;
+}
+.food-container h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  color: rgb(0, 52, 0);
+}
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+.contact ul li {
+  padding: 25px;
+  color: darkblue;
+}
+@media only screen and (max-width: 600px) {
+  section {
+    width: 80vw;
+  }
+  #title {
+    padding: 30px;
+    font-size: 2.5rem;
+  }
+  nav ul {
+    gap: 15px;
+  }
+}
